@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script language=javascript>
+        salario=parseFloat(prompt("Qual o valor do seu Salario Fixo?"));
+        comissao=parseFloat(prompt("Qual o valor das vendas efetuada pelo vendedor?"));
+        
+
+        if (comissao <= 1.500)
+        {
+            total = comissao * 0.03;
+            totalcmss = salario + total;
+            alert("Seu salario com comissao de 3%:" + totalcmss);
+        }
+
+        else if (comissao >= 1.500)
+        {
+            total = comissao * 0.05;
+            totalcmss = salario + total;
+            alert("Seu salario com comissao de 5%:" + totalcmss);
+        }
+
+        
+        </script>
+    </head>
+</html>

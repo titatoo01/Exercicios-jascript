@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Salario</title>
+        <script language = javascript>
+           salario = parseFloat(prompt("Qual o valor do seu salario: "));
+           vendas = parseFloat(prompt("Qual o valor da sua quantidade de vendas: "));
+
+           if( vendas <= 1500){
+                total = vendas  * 0.03;
+                totalsc = salario + total;
+
+                alert("Seu salrio com comissão de 3% é de R$ " + totalsc);
+
+                 
+           }else if( vendas >= 1500){ 
+               total = vendas * 0.05;
+               totalsc = salario + total;
+
+               alert("Seu salario com comissão de 5% é de R$ "+totalsc);
+           }
+
+                
+
+
+
+        
+        </script>    
+    </head>
+    <body></body>
+</html>

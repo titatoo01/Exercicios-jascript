@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script language=javascript>
+        alert("Cada maça custa R$1.30 se fosse compradas em menos de uma duzia");
+        alert("cada maça custa R$1.00 se fosse compradas em uma duzia ou mais");
+
+        maças = parseFloat(prompt("Quantas maças voce deseja comprar?"));
+            if(maças < 12)
+            {
+                compra = maças * 1.30;
+                alert("Voce ira pagar R$" + compra);
+            }
+
+            else if (maças >= 12)
+            {
+                compra = maças * 1.00;
+                alert("Voce ira pagar R$" + compra);
+            }
+        
+        </script>
+    </head>
+</html>

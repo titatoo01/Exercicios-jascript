@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        x=parseInt(prompt("Digite um Numero..."))
+        i=1
+        divisor=0
+        
+        while(i<=x)
+        {
+            resto = (x%i)
+            if (resto==0)
+            {
+                divisor++
+            }
+            i++
+        }
+        if(divisor==2)
+        {
+            document.write("Primo")
+        }
+        else
+        {    
+            document.write("Não é primo")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

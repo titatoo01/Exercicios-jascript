@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Maçãzinha</title>
+        <script language = javascript>
+            alert("Cada maçã custa R$ 1,30 se forem compradas em menos de uma duzia ");
+            alert("Cada maçã custa R$ 1,00 se forem compradas em uma duzia ou mais  ");
+
+            nummaca = parseFloat(prompt("Quantas maçãs voce deseja comprar? : "));
+                if(nummaca < 12 ){
+                    quant =  nummaca * 1.30;
+
+                    alert(" Você de pagar R$ "+ quant);
+
+                }else if(nummaca >= 12 ){
+                    quant = nummaca * 1;
+
+                    alert("Você deve pagar R$ "+ quant);
+                }
+
+
+        
+        </script>    
+    </head>
+    <body></body>
+</html>

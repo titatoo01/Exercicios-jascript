@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script language=javascript>
+        ladoA = prompt("Informe um numero");
+        ladoB = prompt("Informe outro numero");
+        ladoC = prompt("Informe outro numero");
+        SomaAB = parseFloat(ladoA) + parseFloat(ladoB);
+        SomaAC = parseFloat(ladoA) + parseFloat(ladoB);
+        SomaBC = parseFloat(ladoB) + parseFloat(ladoC);
+        if (ladoA>SomaBC){
+            alert("Nao é um triangulo")
+        }
+        else if (ladoB>SomaAC){
+            alert("Nao é um triangulo")
+        }
+        else if (ladoC>SomaAB){
+            alert("Nao é um triangulo")
+        }
+        else if (ladoA<=SomaBC && ladoB<=SomaAC && ladoC<=SomaAB){
+            alert("É um triangulo")
+        }
+
+
+        
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+         <script language=javascript>
+            matricula = parseInt(prompt("Qual o numero de sua matricula: "));
+            horat = parseFloat(prompt("Quantas horas trablhadas"));
+
+              if (horat <= 44)
+               {
+                   total = horat * 5.20;
+                    alert("Você  ganhou em total de horas trabalhadas: " + total.toFixed(2));
+
+                }
+                else if (horat > 44)
+                {
+                   ht = horat - 44;
+                   htd = ht * 8.40;
+                   htad = htd + 44*5.2;
+
+                   alert("Valor de suas horas trabalhadas mais adicionais e: " + htad.toFixed(2));
+                }
+                    
+
+
+        </script>
+    </head>
+
+      <body>
+
+
+      </body>
+</html>
